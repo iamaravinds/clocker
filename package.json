@@ -4,6 +4,8 @@
   "description": "Simple clocker",
   "main": "index.js",
   "scripts": {
+    "build": "npm install",
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/iamaravinds/clocker/issues"
   },
-  "homepage": "https://github.com/iamaravinds/clocker#readme"
+  "homepage": "https://github.com/iamaravinds/clocker#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
