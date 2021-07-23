@@ -4,7 +4,13 @@ pipeline {
 
     stages {
         stage("build") {
-             monitoring (
+            steps {
+                echo 'building app'
+                echo 'Added portlet'
+            }
+        }
+        stage("monitor") {
+            monitoring (
                     '''
                     [
                         {
@@ -21,10 +27,6 @@ pipeline {
                     ]
                     '''
             )
-            steps {
-                echo 'building app'
-                echo 'Added portlet'
-            }
         }
         stage("test") {
             steps {
