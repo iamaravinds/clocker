@@ -3,7 +3,7 @@ stage("monitor") {
             '''
             [
                 {
-                    "id": "first-demo-portlet"
+                    "id": "first-demo-portlet",
                     "width": 400,
                     "height": 200,
                     "color": "#FF5733"
