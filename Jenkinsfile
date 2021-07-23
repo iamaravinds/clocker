@@ -1,5 +1,5 @@
 stage("monitor") {
-    monitoring (
+    monitoring(
             '''
             [
                 {
