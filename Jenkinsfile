@@ -23,6 +23,7 @@ pipeline {
             )
             steps {
                 echo 'building app'
+                echo 'Added portlet'
             }
         }
         stage("test") {
